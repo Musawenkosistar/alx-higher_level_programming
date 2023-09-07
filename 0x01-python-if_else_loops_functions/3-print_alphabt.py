@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-for letter in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is not 'e':
-        print("{}".format(chr(letter)), end="")
+import random
+number = random.randint(-10, 10)
+if number > 0:
+    print('{:d} is positive'.format(number))
+elif number == 0:
+    print('{:d} is zero'.format(number))
+elif number < 0:
+    print('{:d} is negative'.format(number))
