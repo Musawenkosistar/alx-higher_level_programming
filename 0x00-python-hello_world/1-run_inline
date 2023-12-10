@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin
 python3 <<< $PYFILE
 
 print(f"Best School: {88+10}") 
